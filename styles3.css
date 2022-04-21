@@ -1,0 +1,57 @@
+/*for making a stylish news site*/
+/*simple css to make the page not look so bland*/
+/*nvm ignore this file LOL page looks wonky with it.*/
+
+body {
+    background-color: #FFFBF0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #2d2d2d;
+}
+
+p {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #2d2d2d;
+}
+
+input[type=text] {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #2d2d2d;
+    background-color: #FFFBF0;
+    padding: 10px;
+    border-radius:10px;
+    margin: 10px 0;
+    border: 2px solid #e4ddf4;
+}
+
+input[type=password] {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #2d2d2d;
+    background-color: #FFFBF0;
+    padding: 10px;
+    border-radius:10px;
+    margin: 10px 0;
+    border: 2px solid #e4ddf4;
+}
+
+textarea {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #2d2d2d;
+    background-color: #FFFBF0;
+    padding:10px;
+    border-radius:10px;
+    margin: 10px 0;
+    border:2px solid #e4ddf4;
+}
+
+input[type=submit] {
+    padding:10px;
+    background-color:#FFFBF0;
+    color:#2d2d2d;
+    padding:10px;
+    border-radius:10px;
+    border:2px solid #e4ddf4;
+}  

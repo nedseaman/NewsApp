@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Simple News Site</title>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        <!-- separate html file for submitting the login form -->
+        <!-- leads to login3.php -->
+        <h1>Simple News Site Login</h1>
+        <form action="login3.php" method="POST">
+            Username: <input type="text" name="user" required />
+            Password: <input type="password" name="pass" required />
+            <input type="submit" value="Login"/>
+        </form>
+
+        <!-- if you don't have an account, then you can go to register page (create_user3.html) -->
+        <form action="create_user3.html">
+            <input type="submit" value="Register for an Account"/>
+        </form>
+    </body>
+</html>

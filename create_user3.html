@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- separate html page for registering for an account -->
+        <title>Register for an Account</title>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        <h1>Register for an Account</h1>
+        <!-- leads to create_user3.php -->
+        <!-- username and password can't exceed 50 chars -->
+        <form action="create_user3.php" method="POST">
+            Username: <input type="text" name="user" maxlength="50" required />
+            Password: <input type="password" name="password" maxlength="50" required />
+            <input type="submit" value="Register"/>
+        </form>
+        <br><br>
+        <!-- if you already have account, just use this login button to login. -->
+        <form action="login3.html">
+            <input type="submit" value="Login"/>
+        </form>
+    </body>
+</html>
